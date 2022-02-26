@@ -24,27 +24,27 @@ for (let i = 1; i <= ciclos; i++) {
 
   if (user == piedra) {
          if (computer == piedra) {
-           alert("Empate!");
+           alert("Empate");
          } else if (computer == papel) {
-           alert("Perdiste :( ");
+           alert("Perdiste");
          } else if (computer== tijera) {
-           alert("Ganaste!");
+           alert("Ganaste");
          }
       } else if (user == papel) {
          if (computer == piedra) {
-           alert("Ganaste!");
+           alert("Ganaste");
          } else if (computer == papel) {
-           alert("Empate!");
+           alert("Empate");
          } else if (computer == tijera) {
-           alert("Perdiste!");
+           alert("Perdiste");
          }
        } else if (user == tijera) {
          if (computer == piedra) {
-           alert("Perdiste!");
+           alert("Perdiste");
          } else if (computer == papel) {
-           alert("Ganaste!");
+           alert("Ganaste");
          } else if (computer == tijera) {
-           alert("Empate!");
+           alert("Empate");
          }
        } else {
          alert("error");
